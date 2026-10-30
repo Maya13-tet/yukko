@@ -25,8 +25,16 @@
 :root { --c-canvas: #f3f3ee; --c-surface: #ffffff; --c-ink: #1e221f; --c-ink-soft: #5b625b; --c-accent: #4f6b55; --c-accent-ink: #f4f8f2; --c-accent-deep: #3c5642; --f-display: "Tenor Sans", "Georgia", serif; --f-text: "Onest", "Segoe UI", system-ui, sans-serif; --h1k: 1; }
 </style>
 <link rel="stylesheet" href="style-prod.css">
+<style data-demo-label>
+.demo-label{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:center;gap:8px;min-height:32px;padding:6px 12px;background:#1f2a22;color:#f4f2ec;font:600 12px/1.25 "Onest",system-ui,sans-serif;letter-spacing:.02em;text-align:center}
+.demo-label b{display:inline-block;padding:2px 8px;border-radius:999px;background:#f4f2ec;color:#1f2a22;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:11px}
+.s-bar{top:32px !important}
+.s-hero__widget{top:108px !important}
+@media (max-width:520px){.demo-label{font-size:11px;gap:6px;padding:6px 10px}.demo-label b{font-size:10px}}
+</style>
 </head>
 <body class="s-prod" id="top" data-wa="" data-tg="yukko_salon" data-max="">
+<div class="demo-label" data-demo-label role="note"><b>Демо-проект</b><span>учебная работа, не официальный сайт</span></div>
 <header class="s-bar" data-s-bar>
   <a class="s-bar__brand" href="#top"><i aria-hidden="true"></i>Юкко</a>
   <div class="s-bar__right">
